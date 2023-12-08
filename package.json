@@ -1,0 +1,44 @@
+{
+  "name": "britad-ui",
+  "version": "0.0.1",
+  "description": "React UI components design by BritaD",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "./components": {
+      "types": "./dist/components/index.d.ts",
+      "default": "./dist/components/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/britadtw/britad-ui.git"
+  },
+  "keywords": [
+    "BritaD",
+    "UI"
+  ],
+  "author": "BritaD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/britadtw/britad-ui/issues"
+  },
+  "homepage": "https://github.com/britadtw/britad-ui#readme",
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "@types/react": "^18.2.42",
+    "@types/node": "latest",
+    "tailwindcss": "latest",
+    "postcss":"latest",
+    "autoprefixer": "latest"
+  }
+}
